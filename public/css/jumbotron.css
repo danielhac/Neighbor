@@ -1,0 +1,21 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.panel-body {
+	/*background-color: #D6E8F5;*/
+}
+
+.well {
+	/*background-color: #D9E6EA;*/
+}
+
+.jumbotron {
+	background-color: #98CEDE;
+}
+
+.navbar-inverse {
+	background-color: #02465A;
+}
