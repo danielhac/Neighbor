@@ -9,8 +9,8 @@ app.factory('WebSiteService', function($http) {
 		$http.post('/api/website', website)
 		.success(callback);
 	};
-	var createReply = function(id, callback) {
-		$http.post('/api/website/'+id+'/rreplys', id)
+	var createReply = function(id, reply, callback) {
+		$http.post('/api/website/'+id+'/rreplys', reply)
 		.success(callback);
 	};
 	var remove = function(id, callback) {
@@ -45,8 +45,8 @@ app.controller("NeController", function ($scope, $http, WebSiteService) {
 		});
 	}
 
-	$scope.addd = function(rreplys) {
-		WebSiteService.createReply(rreplys, function (response) {
+	$scope.addd = function(id, rreplys) {
+		WebSiteService.createReply(id, rreplys, function (response) {
 			$scope.websites = response;
 		});
 		// alert(rreplys);
