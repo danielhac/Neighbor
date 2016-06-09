@@ -1,6 +1,4 @@
-The OpenShift `nodejs` cartridge documentation can be found at:
+# Help Your Neighbor - Web Application
+# Capstone Project for HKUST
 
-http://openshift.github.io/documentation/oo_cartridge_guide.html#nodejs
-# Neighbor
-# Neighbor
-# Neighbor
+By Daniel Hac
